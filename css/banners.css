@@ -1,0 +1,85 @@
+.banners {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid lightgray;
+  }
+  .left-banners {
+    margin-right: 5px;
+  }
+  .rolling-banner {
+      width: 820px;
+      border-radius: 2px;
+      margin-bottom: 3px;
+  }
+  .right-banners > img {
+    width: 400px;
+    border-radius: 2px;
+    margin-bottom: 5.9px;
+  }
+  /* .right-banners > img:nth-child(2) {
+    margin-top: 0px;
+  } */
+  .bottom-section {
+      width: 1200px;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 25px;
+      
+  }
+  .bottom-section > li {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+
+    cursor: pointer;
+  }
+  .bottom-section > li:hover > img {
+    width: 48px;
+    margin-bottom: 6px;
+  }
+  .bottom-section > li > img {
+    width: 45px;
+    margin-bottom: 5px;
+  }
+  .bottom-section > li > span {
+    margin-bottom: auto;
+  }
+  .swiper {
+    width: 815px;
+    }
+    .swiper-button-prev {
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    color: white;
+    left: 0;
+    display: none;
+    }
+    .swiper-button-next {
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    color: white;
+    right: 0;
+    display: none;
+    }
+    .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .swiper-button-next:after {
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .swiper:hover > .swiper-button-prev {
+    display: flex;
+    }
+    .swiper:hover > .swiper-button-next {
+    display: flex;
+    }
+    .swiper-pagination-bullet-active {
+    background-color: white;
+    }
+    .floating {
+    position: fixed;
+    right: 200px;
+    bottom: 100px;
+    }
